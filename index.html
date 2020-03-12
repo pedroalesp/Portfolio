@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="images/logo.png" alt="Logo de la página"/>
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
                         <a href="#Portafolio">Portafolio</a>
@@ -28,44 +28,46 @@
             </nav>
         </div>
     </header>
-    <section>
+    <section class="hero">
         <h1>
             ¡HOLA! SOY <strong>PEDRO SILVA</strong> <br/> DESARROLLADOR WEB Y<br/> <strong>CREADOR DE CONTENIDO</strong>
         </h1>
         <img src="images/hero.jpg" width="300" height="300" alt="Imagen principal del sitio"/>
     </section>
-    <section id="Portafolio">
+    <section id="Portafolio" class="portfolio">
         <h2>Proyectos Destacados</h2>
-        <article>
+        <article class="project">
             <figure>
-                <h3>Escuela de Películas</h3>
-                <h4>Sitio web para cinéfilos</h64>
-                <p>Reviews, opiniones y recomendaciones de peliculas</p>
-                <p><small><strong>Pudes verlo en <a href="https://escueladepeliculas.com/" target="_blank">escueladepeliculas.com</a><br/>
+                <h3 class="project-title">Escuela de Películas</h3>
+                <h4 class="project-about">Sitio web para cinéfilos</h64>
+                <p class="project-description">Reviews, opiniones y recomendaciones de peliculas</p>
+                <p class="project-url"><small><strong>Pudes verlo en <a href="https://escueladepeliculas.com/" target="_blank">escueladepeliculas.com</a><br/>
                 y seguirme en instagram como @escueladepeliculas</strong></small></p>
-                <img src="images/escueladepeliculas.png" alt="Imagen de escueladepeliculas.com" width="250" height="250"/>
+                <figure class="project-image-container">
+                    <img src="images/escueladepeliculas.png" alt="Imagen de escueladepeliculas.com" width="250" height="250"/>
+                </figure>
             </figure>
         </article>
     </section>
     <section id="Cursos">
         <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <h3>Curso profesional de Git y Github</h3>
-                <p>Dominio pleno del sistema de control de versiones</p>
-                <a href="https://platzi.com/clases/git-github/" target="_blank">www.platzi.com/git</a>
-                <img src="images/git.png" alt="Imagen del curso profesional de Git y Github" width="200" height="200"/>
+        <article class="event">
+            <figure class="event-imageContainer">
+                <h3 class="event-title">Curso Profesional de Git y Github</h3>
+                <p class="event-description">Dominio pleno del sistema de control de versiones</p>
+                <a class="event-url" href="https://platzi.com/clases/git-github/" target="_blank">www.platzi.com/git</a>
+                <img class="event-image" src="images/git.png" alt="Imagen del curso profesional de Git y Github" width="200" height="200"/>
             </figure>
         </article>
     </section>
-    <section id="Contacto">
-        <form action="/suscripcion">
+    <section class="contact" id="Contacto">
+        <form class="form-email" action="/suscripcion">
             <h3>¿Creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email" id="email"/> 
             <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 </html>
 
