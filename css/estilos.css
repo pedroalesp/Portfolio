@@ -9,4 +9,41 @@ h4,
 h5,
 h6 {
     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    color: white;
+    line-height: 1.5em;
+    font-size: 40px;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
+.hero {
+    height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-color: #1b2127;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.proyect-details {
+    height: 450px;
+    width: 500px;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
