@@ -51,24 +51,41 @@ h1 strong {
 } */
 
 .header {
+    display: flex;
     background-color: #1b2127;
     color: white;
-    -webkit-margin-collapse: discard;
-
+    justify-content: space-between;
+    height: 55px;
 }
 
-.header a {
-    color: white;
-    text-decoration: none;
+.menu {
+    height: inherit;
+    align-items: center;
 }
 
-.flexbox {
+ol,
+li {
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.header ol{
     display: flex;
 }
 
-.box {
-    width: 50px;
-    height: 50px;
-    border: 1px solid red;
-    margin: 5px;
+.header a {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 3px;
 }
+
+
