@@ -1,5 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 h1,
@@ -33,10 +34,21 @@ h1 strong {
     background-position-x: right;
 }
 
-.proyect-details {
+.portfolio {
+    background-color: #fafafa;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+/* .proyect-details {
     height: 450px;
     width: 500px;
-}
+} */
 
 .header {
     background-color: #1b2127;
@@ -50,7 +62,13 @@ h1 strong {
     text-decoration: none;
 }
 
-.project {
-    border: 1px solid gray;
-    border-radius: 10px;
+.flexbox {
+    display: flex;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    margin: 5px;
 }
