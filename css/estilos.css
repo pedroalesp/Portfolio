@@ -26,6 +26,15 @@ h1 strong {
     color: #146ee4;
 }
 
+h2 {
+    color: #146ee4;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
 .hero {
     height: 300px;
     background-image: url('../images/hero.jpg');
@@ -39,19 +48,47 @@ h1 strong {
 
 .portfolio {
     background-color: #fafafa;
+    padding: 20px;
 }
 
 .project {
     border: 1px solid gray;
     border-radius: 10px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     padding: 20px;
 }
 
-/* .proyect-details {
-    height: 450px;
+.project-title {
+    font-size: 30px;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.project-about {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.project-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    /* justify-content: space-between; */
+    /* width: 500px; */
+} 
+
+.project-imageContainer {
     width: 500px;
-} */
+    display: contents;
+}
+
+.project-url a {
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
 
 .header {
     display: flex;
