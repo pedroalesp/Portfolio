@@ -37,13 +37,18 @@ h2 {
 
 .hero {
     height: 300px;
-    background-image: url('../images/hero.jpg');
+    /* background-image: url('../images/hero.jpg'); */
     background-color: #1b2127;
-    background-size: 300px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
+    /* background-size: 300px 300px;
+    background-repeat: no-repeat; */
+    /* background-position-x: right; */
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+.hero-image {
+    object-fit: cover;
 }
 
 .portfolio {
@@ -97,6 +102,10 @@ h2 {
     justify-content: space-between;
     height: 70px;
     align-items: center;
+}
+
+.logo img {
+    margin-top: 40px;
 }
 
 .menu {
@@ -157,6 +166,8 @@ figure {
 
 .event-list {
     display: flex;
+    background-color: #fafafa;
+    /* flex-wrap: wrap; */
 }
 
 .event-imageContainer {
@@ -222,11 +233,11 @@ figure {
 }
 
 .social-link.instagram {
-    background-image: url('../images/github.svg');    
+    background-image: url('../images/instagram.svg');    
 }
 
 .social-link.github {
-    background-image: url('../images/instagram.svg');    
+    background-image: url('../images/github.svg');    
 }
 
 .form-email {
@@ -262,4 +273,15 @@ figure {
     /* font-family: 'Source Sans Pro', sans-serif; */
     font-size: 22px;
     margin: 10px;
+}
+
+.container {
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    /* flex-wrap: inherit; */
 }
